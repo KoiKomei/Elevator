@@ -14,4 +14,32 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="StateAndContext.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+    <ClCompile Include="Moving.cpp">
+      <Filter>File di risorse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="StateAndContext.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Moving.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
