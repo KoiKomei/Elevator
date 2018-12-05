@@ -58,7 +58,7 @@ void Menu::drawer(Context* cont, sf::RenderWindow &window) {
 			if (event.type == sf::Event::Closed){
 				open = false;
 			}
-			if (event.type == sf::Event::MouseMoved) {
+			/*if (event.type == sf::Event::MouseMoved) {
 				cout << event.mouseMove.x << endl;
 				cout << event.mouseMove.y << endl;
 			}
@@ -73,7 +73,7 @@ void Menu::drawer(Context* cont, sf::RenderWindow &window) {
 					cout << "Right was clicked " << endl;
 
 				}
-			}
+			}*/
 			
 			if (event.type == sf::Event::KeyReleased) {
 				switch (event.key.code) {

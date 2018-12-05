@@ -126,7 +126,7 @@ void Game::drawer(Context* cont, sf::RenderWindow &window) {
 				open = false;
 				es = true;
 			}
-			if (event.type == sf::Event::MouseMoved) {
+			/*if (event.type == sf::Event::MouseMoved) {
 				cout << event.mouseMove.x << endl;
 				cout << event.mouseMove.y << endl;
 			}
@@ -138,7 +138,7 @@ void Game::drawer(Context* cont, sf::RenderWindow &window) {
 					cout << "Right was clicked " << endl;
 
 				}
-			}
+			}*/
 
 			if (event.type == sf::Event::KeyReleased) {
 				switch (event.key.code) {
